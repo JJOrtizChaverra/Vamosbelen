@@ -1,0 +1,21 @@
+BLOG
+
+Usuarios
+Categorias
+Articulos
+
+• Base de datos
+  - Cotejamiento: utf8_general_ci
+
+• Tablas
+  - Nombres de tablas en minuscula
+  - Palabras en plural (usuarios, categorias, articulos)
+  - Si son mas de dos palabras unirlas con guion bajo (No usar camelCase)
+  - La tabla de usuarios obligatoriamente utilizarla en ingles (users)
+
+• Columnas
+  - Nombres de columnas en minuscula y singular
+  - Si son mas de dos palabras unirlas con guion bajo (vistas_categorias) - (No usar camelCase)
+  - Colocar como prefijo el nombre de la tabla en singular a todas las columnas
+  - Como minimo siempre usar estas tres columnas: id_prefijo (int), date_created_prefijo (date), date_update_prefijo (timestamp)
+  - Poner valores iniciales por defecto a las columnas: NULL, 0, current_timestamp()  
